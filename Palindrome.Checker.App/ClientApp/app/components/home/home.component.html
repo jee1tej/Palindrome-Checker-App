@@ -1,0 +1,65 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <strong>PALINDROME CHECKER</strong>
+    </div>
+
+    <div class="panel-body">
+        <form class="form-horizontal"
+              novalidate
+              (ngSubmit)="save()"
+              [formGroup]="palindromeForm">
+            <fieldset>
+                <div class="form-group"
+                     [ngClass]="{'has-error': (palindromeForm.get('stringToSave').touched ||
+                                              palindromeForm.get('stringToSave').dirty) &&
+                                              !palindromeForm.get('stringToSave').valid }">
+                    <label class="col-md-2 control-label"
+                           for="stringToSaveId">Input to Check</label>
+
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="stringToSaveId"
+                               type="text"
+                               placeholder="input is required"
+                               formControlName="stringToSave" />
+                        <span class="help-block" *ngIf="(palindromeForm.get('stringToSave').touched ||
+                                                         palindromeForm.get('stringToSave').dirty) &&
+                                                         palindromeForm.get('stringToSave').errors">
+                            <span *ngIf="palindromeForm.get('stringToSave').errors?.required">
+                                Please enter your input.
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-md-4 col-md-offset-2">
+                        <span>
+                            <button class="btn btn-primary"
+                                    type="submit"
+                                    [disabled]="!palindromeForm.valid">
+                                Check!!
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <div>
+            <span class="help-block" style="font-size: 20px; color:brown"><strong>{{errorMessage}}</strong></span>
+        </div>
+        <hr />
+        <div>
+            <h3>List of Palindromes saved</h3>
+            <hr />
+            <ul *ngFor="let palindrome of palindromes">
+                <li>{{palindrome}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--<br>Dirty: {{ palindromeForm.dirty }}
+<br>Touched: {{ palindromeForm.touched }}
+<br>Valid: {{ palindromeForm.valid }}
+<br>Value: {{ palindromeForm.value | json }}-->

@@ -1,0 +1,14 @@
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.deps.json
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.runtimeconfig.json
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.runtimeconfig.dev.json
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.dll
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\bin\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.pdb
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\obj\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\obj\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\obj\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.AssemblyInfoInputs.cache
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\obj\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.AssemblyInfo.cs
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\obj\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.dll
+C:\Users\HOME\source\repos\Palindrome.Checker.App\Palindrome.Checker.UnitTests\obj\Debug\netcoreapp2.0\Palindrome.Checker.UnitTests.pdb
